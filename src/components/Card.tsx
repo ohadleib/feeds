@@ -1,3 +1,7 @@
+import like from "./build/img/like.svg";
+import likeUnfill from "./build/img/like-unfill.svg";
+import comment from "./build/img/comment-unfill.svg";
+
 interface News {
   // id: string;
   // userId: string;
@@ -38,18 +42,18 @@ const Card = ({ avatar, images, username, text, likes, comments }: News) => (
     </div>
     <div className="cd-footer">
       <span className="likes">
-        <img src="/img/like.svg" /> {likes} Likes
+        <img src={like} /> {likes} Likes
       </span>
       <span className="comments float-end">{comments} Comments</span>
     </div>
     <div className="bottom-bar">
       <div className="row">
         <div className="col-md-6 d-flex justify-content-center">
-          <img width="16px" src="/img/like-unfill.svg" />{" "}
+          <img width="16px" src={likeUnfill} />{" "}
           <span className="btn-like">Like</span>
         </div>
         <div className="col-md-6 d-flex justify-content-center">
-          <img width="16px" src="/img/comment-unfill.svg" />{" "}
+          <img width="16px" src={comment} />{" "}
           <span className="btn-comment">Comment</span>
         </div>
       </div>

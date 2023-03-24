@@ -1,0 +1,196 @@
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background-color: #f6f7f7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.active {
+  color: #2db8a1 !important;
+  border-bottom: 2px solid #2db8a1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.header {
+  height: 58px;
+  background-color: #ffffff;
+}
+
+.header .logo {
+  display: block;
+  width: 40px;
+  height: 40px;
+  margin-top: 9px;
+}
+
+.header .search-bar {
+  width: 216px;
+  height: 40px;
+  padding: 11px 140px 11px 12px;
+  border-radius: 32px;
+  background-color: #f4f5f5;
+  margin-top: 9px;
+  margin-left: 20px;
+  border: none;
+}
+
+.header ul {
+  list-style: none;
+}
+.header .nav-right {
+  display: flex;
+  justify-content: end;
+}
+
+.header .nav-right .avatar img {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.header ul li {
+  float: left;
+}
+
+.header ul li a {
+  display: block;
+  text-decoration: none;
+  line-height: 58px;
+  padding-right: 25px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: -0.16px;
+  color: #949796;
+}
+
+.header ul li a span {
+  padding-top: 3px;
+}
+
+.header ul li a img {
+  padding-right: 4px;
+}
+
+.posts .infinite-scroll-component {
+  overflow: hidden !important;
+}
+
+/* card */
+
+.cd {
+  background-color: #ffffff;
+  margin-top: 24px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.cd .cd-header .cd-avatar img {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.cd .cd-header .cd-profile {
+  margin-left: 10px;
+}
+
+.cd .cd-header .cd-profile h6 {
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #282f2d;
+  margin-bottom: 3px;
+}
+
+.cd .cd-header .cd-profile a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #0a66c2;
+}
+
+.cd .cd-description {
+  padding-left: 20px;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #000;
+}
+
+.cd .cd-body {
+  background-color: #b8c248;
+}
+
+.cd .cd-body .imulti {
+  width: 49%;
+  height: auto;
+  overflow: hidden;
+}
+
+.cd .cd-body .isingle {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
+
+.cd .cd-footer {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #737877;
+  padding: 20px 18px;
+}
+
+.cd .bottom-bar {
+  border-top: 1px solid #e9eaea;
+  padding: 10px 0px;
+  margin: 0px 20px;
+}
+
+.cd .bottom-bar img {
+  margin-right: 5px;
+}
+
+.cd .bottom-bar .btn-like {
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #0a66c2;
+  padding-top: 4px;
+}
+.cd .bottom-bar .btn-comment {
+  font-size: 14px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  color: #484e4c;
+  padding-top: 2px;
+}

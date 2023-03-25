@@ -1,6 +1,6 @@
-import like from "./build/img/like.svg";
-import likeUnfill from "./build/img/like-unfill.svg";
-import comment from "./build/img/comment-unfill.svg";
+import like from "./assets/img/like.svg";
+import likeUnfill from "./assets/img/like-unfill.svg";
+import comment from "./assets/img/comment-unfill.svg";
 
 interface News {
   username: string;

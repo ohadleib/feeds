@@ -1,8 +1,8 @@
-import home from "./build/img/home.png";
-import message from "./build/img/message.png";
-import bell from "./build/img/bell.png";
-import avatar from "./build/img/profile.jpeg";
-import logo from "./build/img/logo.png";
+import home from "./assets/img/home.png";
+import message from "./assets/img/message.png";
+import bell from "./assets/img/bell.png";
+import avatar from "./assets/img/profile.jpeg";
+import logo from "./assets/img/logo.png";
 
 const Header = () => (
   <div className="header">

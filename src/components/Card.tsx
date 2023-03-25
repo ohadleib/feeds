@@ -3,19 +3,12 @@ import likeUnfill from "./build/img/like-unfill.svg";
 import comment from "./build/img/comment-unfill.svg";
 
 interface News {
-  // id: string;
-  // userId: string;
   username: string;
   avatar: string;
-  // shopName: string;
-  // shopId: string;
   images: string[];
   comments: number;
-  // date: string;
   text: string;
   likes: number;
-  // didLike: boolean;
-  // premium: boolean;
 }
 
 const Card = ({ avatar, images, username, text, likes, comments }: News) => (
